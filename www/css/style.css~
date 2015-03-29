@@ -537,15 +537,15 @@ section::after {
 	background: url('../images/custom/Flowers.png') 50% 50% no-repeat ;
 	color: #FFF;
 	width: 100%;
-	height: 250px;
+	height: 275px;
 	left: 0;
 	padding: 5em 0;	
 	z-index: -1000;
 }
 
-#about {
+#maids {
 	background: #FFF;
-	height: 200px;
+	height: 700px;
 	margin: 0 auto;
 	color: #5E3921;
 	padding: 2.5em 0;
@@ -594,7 +594,7 @@ section::after {
 }
 
 #rsvp {
-	background: url('http://placehold.it/1920x2158/6e6e86/76768E') 50% 0 no-repeat fixed;
+	background: url('../images/custom/jessica_zoob1.jpg') 50% 0 no-repeat fixed;
 	color: #FFF;
 	height: 380px;
 	margin: 0 auto;
@@ -1111,18 +1111,18 @@ ul#countdown li .timeRefSeconds {
 .events-button {
 	width: 140px;
 	padding: 0.4em;
-	border: 2px solid #FFF;
+	border: 2px solid #6E6E86;
 	text-align: center;
 	margin: 0.6em auto;
 	font-size: 1.4em;
-	color: #FFF;
+	color: #6E6E86;
 	visibility: hidden;
 }
 
-.events-button  a:hover{
+.events-button  a{
 	margin: 0 auto;
 	text-align: center;
-	color: #EFC2CB;
+	color: #6E6E86;
 }
 
 /*wedding ceremony */
@@ -1684,19 +1684,19 @@ figure.photostack-current::after {
 .rsvp-text h2 {
 	padding-top: 2em;
 	font-size: 2.4em;
-	color: #FFF;
+	color: #6E6E86;
 	visibility: hidden;
 }
 
 .rsvp-text p {
-	color: #FFF;
+	color: #6E6E86;
 	font-size: 1.2em;
 	font-weight: 300;
 	padding: 0.6em 0;
 	width: 680px;
 	margin: 1.2em auto;
 	text-align: center;
-	border: 2px solid #FFF;
+	border: 2px solid #6E6E86;
 	visibility: hidden;
 }
 
