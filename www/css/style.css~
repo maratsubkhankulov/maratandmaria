@@ -1387,6 +1387,10 @@ ul#countdown li .timeRefSeconds {
 	margin: 1.8em 0.5em;
 }
 
+.album-text a {
+   color: #6E6E86
+}
+
 .photostack {
 	background: #e7eaee;
 	position: relative;
@@ -1778,7 +1782,7 @@ figure.photostack-current::after {
 
 #instafeed a {
   padding:5px 5px 1px 5px;
-  margin:10px;
+  margin:5px;
   border:1px solid #e1e1e1;
   display:inline-block;
   border-radius: 2px;
