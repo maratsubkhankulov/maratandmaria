@@ -39,7 +39,6 @@
 	<![endif]-->
 	
 	<script src="js/modernizr.min.js"></script>
-	<script type="text/javascript" src="js/instafeed.min.js"></script>
 </head>
 
 
@@ -414,7 +413,7 @@
 				
 				<div class="prettyPhoto-gallery">
 			<div class="heart content-style"></div>
-         <!-- INSTANSIVE WIDGET --><script src="//instansive.com/widget/js/instansive.js"></script><iframe src="//instansive.com/widgets/b69214142a4ffb12150dd2cd623b0d8b4f1cb8ed.html" id="instansive_b69214142a" name="instansive_b69214142a"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+         <div id="instafeed"></div>
 				<!--<section id="photostack" class="photostack">
 					<div>
 						<figure>
@@ -628,7 +627,17 @@
 <script type="text/javascript" src="js/responsiveslides.js"></script>
 <script type="text/javascript" src="js/owl.carousel.js"></script>
 <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/instafeed.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>  
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'maratandmaria',
+        clientId: '35494e5ab0f74ee5ae4ffceb7d36e24e',
+        template: '<div> <a href="{{link}}"><img src="{{image}}" /></a> {{caption}} </div>'
+    });
+    feed.run();
+</script>
 
 
 <script>
