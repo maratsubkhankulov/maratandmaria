@@ -543,9 +543,9 @@ section::after {
 	z-index: -1000;
 }
 
-#maids {
+#bestman {
 	background: #FFF;
-	height: 700px;
+	height: 800px;
 	margin: 0 auto;
 	color: #5E3921;
 	padding: 2.5em 0;
@@ -563,7 +563,7 @@ section::after {
 
 #wedding {
 	background: #FFF;
-	height: 1700;
+	height: 1700px;
 	margin: 0 auto;
 	color: #5E3921;
 	padding: 2.5em 0;
@@ -978,15 +978,15 @@ ul#countdown li .timeRefSeconds {
 }
 
 /* godfathers */
-#godfathers {
-	padding: 0;
+#maids {
+	background: #FFF;
+	height: 500px;
 	margin: 0 auto;
-	text-align: center;
-	margin-bottom: 3em;
-	visibility: hidden;
+	color: #5E3921;
+	padding: 2.5em 0;
 }	
 
-.godfathers {
+.maids {
 	width: 190px;
 	height: 190px;
 	position: relative;
@@ -994,7 +994,7 @@ ul#countdown li .timeRefSeconds {
 	text-align: center;
 }
 
-.godfathers .overlay {
+.maids .overlay {
 	display: block;
 	width: 200px;
 	height: 200px;
@@ -1021,12 +1021,12 @@ ul#countdown li .timeRefSeconds {
 }
 
 /* godfathers shape */
-.godfathers .overlay.hexagon {
+.maids .overlay.hexagon {
 	background: url("../images/hexagon-godfathers.png");
 }
 
 /* godfathers images hover effect */
-.godfathers:hover .overlay {
+.maids:hover .overlay {
 	-webkit-transform: scale(1.05,1.05);
 	-webkit-transition-timing-function: ease-out;
 	-webkit-transition-duration: 0.3s;
