@@ -412,121 +412,8 @@
                 </div>-->
 				
 				<div class="prettyPhoto-gallery">
-			<div class="heart content-style"></div>
-         <!-- INSTANSIVE WIDGET --><script src="//instansive.com/widget/js/instansive.js"></script><iframe src="//instansive.com/widgets/b69214142a4ffb12150dd2cd623b0d8b4f1cb8ed.html" id="instansive_b69214142a" name="instansive_b69214142a"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
-				<!--<section id="photostack" class="photostack">
-					<div>
-						<figure>
-							<a data-rel="prettyPhoto[album]" href="images/stack/img1.png" class="photostack-img"><img src="images/stack_thumb/img1.png" alt="Japanese Tea Gardens" /></a>
-							<figcaption>
-								<h2 class="photostack-title">Japanese Tea Gardens</h2>
-								<div class="photostack-back">
-								</div>
-							</figcaption>
-						</figure>
-						<figure>
-							<a data-rel="prettyPhoto[album]" href="images/stack/img2.png" class="photostack-img"><img src="images/stack_thumb/img2.png" alt="Getting acquainted in 1st year"/></a>
-							<figcaption>
-								<h2 class="photostack-title">Getting acquainted in 1st year</h2>
-								<div class="photostack-back">		
-								</div>
-							</figcaption>
-						</figure>
-						<figure>
-							<a data-rel="prettyPhoto[album]" href="images/stack/img3.png" class="photostack-img"><img src="images/stack_thumb/img3.png" alt="Swimming in Yosemite"/></a>
-							<figcaption>
-								<h2 class="photostack-title">Swimming in Yosemite</h2>
-								<div class="photostack-back">
-								</div>
-							</figcaption>
-						</figure>
-						<figure>
-							<a data-rel="prettyPhoto[album]" href="images/stack/img4.png" class="photostack-img"><img src="images/stack_thumb/img4.png" alt="Bridge of love"/></a>
-							<figcaption>
-								<h2 class="photostack-title">Bridge of love</h2>
-								<div class="photostack-back">
-								</div>
-							</figcaption>
-						</figure>
-						<figure>
-							<a data-rel="prettyPhoto[album]" href="images/stack/img5.png" class="photostack-img"><img src="images/stack_thumb/img5.png" alt="The Engagement"/></a>
-							<figcaption>
-								<h2 class="photostack-title">The Engagement</h2>
-								<div class="photostack-back">			
-								</div>
-							</figcaption>
-						</figure>
-						<figure>
-							<a data-rel="prettyPhoto[album]" href="images/stack/img6.png" class="photostack-img"><img src="images/stack_thumb/img6.png" alt="Trading ice-creams"/></a>
-							<figcaption>
-								<h2 class="photostack-title">Trading ice-creams</h2>
-								<div class="photostack-back">		
-								</div>
-							</figcaption>
-						</figure>
-						<figure data-dummy>
-							<a href="#" class="photostack-img"><img src="images/stack_dummy/img7.png" alt="img07"/></a>
-							<figcaption>
-								<h2 class="photostack-title">Looking out from Tate</h2>
-							</figcaption>
-						</figure>
-						<figure data-dummy>
-							<a href="#" class="photostack-img"><img src="images/stack_dummy/img8.png" alt="img08"/></a>
-							<figcaption>
-								<h2 class="photostack-title">Roses in Notting Hill</h2>
-							</figcaption>
-						</figure>
-						<figure data-dummy>
-							<a href="#" class="photostack-img"><img src="images/stack_dummy/img9.png" alt="img06"/></a>
-							<figcaption>
-								<h2 class="photostack-title">Staying cool at the ice-bar</h2>
-							</figcaption>
-						</figure>
-						<figure data-dummy>
-							<a href="#" class="photostack-img"><img src="images/stack_dummy/img10.png" alt="img02"/></a>
-							<figcaption>
-								<h2 class="photostack-title">Glen Coe</h2>
-							</figcaption>
-						</figure>
-						<figure data-dummy>
-							<a href="#" class="photostack-img"><img src="images/stack_dummy/img11.png" alt="img11"/></a>
-							<figcaption>
-								<h2 class="photostack-title">Scottish selfie</h2>
-							</figcaption>
-						</figure>
-						<figure data-dummy>
-							<a href="#" class="photostack-img"><img src="images/stack_dummy/img12.png" alt="img12"/></a>
-							<figcaption>
-								<h2 class="photostack-title">1st day in Croatia</h2>
-							</figcaption>
-						</figure>
-						<figure data-dummy>
-							<a href="#" class="photostack-img"><img src="images/stack_dummy/img13.png" alt="img13"/></a>
-							<figcaption>
-								<h2 class="photostack-title">San Jose Sharks!</h2>
-							</figcaption>
-						</figure>
-						<figure data-dummy>
-							<a href="#" class="photostack-img"><img src="images/stack_dummy/img14.png" alt="img14"/></a>
-							<figcaption>
-								<h2 class="photostack-title">Surfin' USA</h2>
-							</figcaption>
-						</figure>
-						<figure data-dummy>
-							<a href="#" class="photostack-img"><img src="images/stack_dummy/img15.png" alt="img15"/></a>
-							<figcaption>
-								<h2 class="photostack-title">Pool side</h2>
-							</figcaption>
-						</figure>
-						<figure data-dummy>
-							<a href="#" class="photostack-img"><img src="images/stack_dummy/img16.png" alt="img5"/></a>
-							<figcaption>
-								<h2 class="photostack-title">Sand Dunes at Morro Bay</h2>
-							</figcaption>
-						</figure>
-						</div>
-				</section>
-            -->
+               <div class="heart content-style"></div>
+               <div id="instafeed"></div>
 				</div><!--end PrettyPhoto gallery-->
 		</div><!--end container-->
 	</div><!--end #album-->
@@ -627,7 +514,32 @@
 <script type="text/javascript" src="js/responsiveslides.js"></script>
 <script type="text/javascript" src="js/owl.carousel.js"></script>
 <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/instafeed.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>  
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'maratandmaria',
+        clientId: '35494e5ab0f74ee5ae4ffceb7d36e24e',
+        limit: 20,
+        sortBy: 'most-liked',
+        resolution: 'standard_resolution',
+        after: function () {
+          var images = $("#instafeed").find('a');
+          $.each(images, function(index, image) {
+            var delay = (index * 75) + 'ms';
+            $(image).css('-webkit-animation-delay', delay);
+            $(image).css('-moz-animation-delay', delay);
+            $(image).css('-ms-animation-delay', delay);
+            $(image).css('-o-animation-delay', delay);
+            $(image).css('animation-delay', delay);
+            $(image).addClass('animated flipInX');
+          });
+        },
+        template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /><div class="likes">{{caption}}</div></a>'
+      });
+    feed.run();
+</script>
 
 
 <script>
