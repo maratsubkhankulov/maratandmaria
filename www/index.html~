@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Marat & Maria 25th August 2015</title>
+	<title>Marat &amp; Maria 25th August 2015</title>
 	
 	<!-- The Meta --> 
 	<meta charset="UTF-8">
@@ -60,7 +60,7 @@
                             <li><a href="#about" class="gn-icon fa-users">Special Guests</a></li>
                             <li>
                                 <ul class="gn-submenu">
-                                    <li><a href="#godfathers" class="gn-icon fa-chevron-right">Bestman & Maid of Honour</a></li>
+                                    <li><a href="#godfathers" class="gn-icon fa-chevron-right">Bestman &amp; Maid of Honour</a></li>
                                 </ul>
                             </li>
                             <li><a href="#events" class="gn-icon fa-glass">Events</a></li>
@@ -95,7 +95,7 @@
 		</ul>
 		<div class="container">
 			<div class="header animated tada">
-				<h1>Marat & Maria</h1>
+				<h1>Marat &amp; Maria</h1>
 				<h4>ARE GETTING MARRIED</h4>
 				<hr />
 				<h4>Tuesday, 25th of August 2015 at Harburn House, West Calder</h4>
@@ -188,7 +188,7 @@
 		<div class="container">	
 			<!--Godfathers-->
 			<div id="godfathers">
-				<h3>Bestman & Maid of Honour</h3>
+				<h3>Bestman &amp; Maid of Honour</h3>
 				<div class="heart content-style"></div>
 				
 				<div class="row">
@@ -400,8 +400,6 @@
 	</div><!--end #registry-->
 	<!--END GIFT REGISTRY-->
 	
-	
-	
 	<!--PHOTO ALBUM-->
 	<div id="album">
 		<div class="container">
@@ -507,7 +505,7 @@
 <script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
 <script type="text/javascript" src="js/classie.js"></script>
 <script type="text/javascript" src="js/cbpBGSlideshow.min.js"></script>
-<script type="text/javascript" src="js/photostack.js"></script>
+<!--<script type="text/javascript" src="js/photostack.js"></script>-->
 <script type="text/javascript" src="js/gnmenu.js"></script>
 <script type="text/javascript" src="js/countdown.js"></script>
 <script type="text/javascript" src="js/responsiveslides.js"></script>
@@ -539,7 +537,6 @@
       });
     feed.run();
 </script>
-
 
 <script>
 /*global $:false */
