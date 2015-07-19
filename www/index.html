@@ -411,6 +411,7 @@
 				<div class="prettyPhoto-gallery">
                <div class="heart content-style"></div>
                <div id="instafeed"></div>
+               <button class="btn btn-success" id="load-more">Load more</button>
 				</div><!--end PrettyPhoto gallery-->
 		</div><!--end container-->
 	</div><!--end #album-->
@@ -518,9 +519,9 @@
         get: 'tagged',
         tagName: 'maratandmaria',
         clientId: '35494e5ab0f74ee5ae4ffceb7d36e24e',
-        limit: 6,
         sortBy: 'most-liked',
         resolution: 'low_resolution',
+        limit: 6,
         after: function () {
           var images = $("#instafeed").find('a');
           $.each(images, function(index, image) {
@@ -533,8 +534,21 @@
             $(image).addClass('animated flipInX');
           });
         },
-        template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /><div class="likes">{{caption}}</div></a>'
+        template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /><div class="likes">{{caption}}</div></a>',
+        after: function() {
+          // disable button if no more results to load
+          if (!this.hasNext()) {
+            loadButton.setAttribute('disabled', 'disabled');
+          }
+        }
       });
+
+   var loadButton = document.getElementById('load-more');
+   // bind the load more button
+   loadButton.addEventListener('click', function() {
+     feed.next();
+   });
+
     feed.run();
 </script>
 
