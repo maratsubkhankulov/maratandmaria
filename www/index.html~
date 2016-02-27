@@ -394,7 +394,10 @@
 	<div id="registry">
 		<div class="container">
 			<div class="registry-text">
-				<h2>In this happiest moment your presence is present enough. But if we are honoured with a gift, a monetary gift will be much appreciated, as we have to set up our home in America. We're grateful and thankful for your understanding.</h2>
+            <h2>In this happiest moment your presence is present enough. But we will be honoured to receive a gift from our registry.</h2>
+				<div class="events-button">
+					<a href="http://maratandmaria.zankyou.com/uk">Registry</a>
+				</div>
 			</div>
 		</div><!--end container-->
 	</div><!--end #registry-->
@@ -519,9 +522,9 @@
         get: 'tagged',
         tagName: 'maratandmaria',
         clientId: '35494e5ab0f74ee5ae4ffceb7d36e24e',
-        limit: 6,
         sortBy: 'most-liked',
         resolution: 'low_resolution',
+        limit: 6,
         after: function () {
           var images = $("#instafeed").find('a');
           $.each(images, function(index, image) {

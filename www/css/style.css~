@@ -585,12 +585,15 @@ section::after {
 	z-index: -1000;
 }
 
+#registry a {
+	color: #FFF;
+}
+
 #album {
 	background: #FFF;
 	margin: 0 auto;
 	color: #5E3921;
 	padding: 2.5em 0;
-   scroll: 
 }
 
 #rsvp {
